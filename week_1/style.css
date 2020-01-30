@@ -1,17 +1,22 @@
-body {
-	background: linear-gradient(90deg, #FF0000,#00FF00, #0000FF);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+.layer1 {
+	position: relative;
+	background: linear-gradient(0deg, #FF0000, #FFFFFF, #00FF00, #FFFFFF, #0000FF);
+	width: 100px;
+	height: 600px;
+	animation: gradient 5s infinite;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	z-index: 1;
+	opacity: 0.33;
 }
 
+
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
+	from {
+		top: 480px;
 	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
+
+	to {
+		top: -200px;
 	}
 }
