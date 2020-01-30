@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+}
+.item1 {
+    background: linear-gradient(0deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 1s;
+
+}
+
+.item2 {
+    background: linear-gradient(0deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 2s;
+}
+
+.item3 {
+    background: linear-gradient(0deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 3s;
+}
+
+.item4 {
+    background: linear-gradient(0deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 2s;
+}
+
+.item5 {
+    background: linear-gradient(0deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 1s;
+}
+
+.item6 {
+    background: linear-gradient(180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 1s;
+}
+
+.item7 {
+    background: linear-gradient(180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 2s;
+}
+
+.item8 {
+    background: linear-gradient(180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 3s;
+}
+
+.item9 {
+    background: linear-gradient(180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 100% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 2s;
+}
+
+.item10 {
+    background: linear-gradient(180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 100% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 1s;
+
+}
+
+.container {
+    font-size: 40px;
+    min-height: 600px;
+    width: 100%;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 50% 50%;
+    }
+}
+
+@keyframes inverse-gradient {
+    0% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 50% 0%;
+    }
+
+    100% {
+        background-position: 50% 50%;
+    }
+}

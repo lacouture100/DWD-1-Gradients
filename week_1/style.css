@@ -1,22 +1,69 @@
+
+.strip {
+	position: 100px 0px;
+	height: 1vmax;
+}
+
 .layer1 {
 	position: relative;
 	background: linear-gradient(0deg, #FF0000, #FFFFFF, #00FF00, #FFFFFF, #0000FF);
+	right:100px;
 	width: 100px;
-	height: 600px;
+	height: 1200px;
 	animation: gradient 5s infinite;
-	animation-duration: 3s;
 	animation-direction: alternate;
 	z-index: 1;
 	opacity: 0.33;
 }
+.layer2 {
+	position: relative;
+	background: linear-gradient(0deg, #FF0000, #FFFFFF, #00FF00, #FFFFFF, #0000FF);
+	right:0px;
+	width: 600px;
+	height: 1200px;
+	animation: gradient1 5s infinite;
 
+	animation-direction: alternate;
+	z-index: 1;
+	opacity: 0.33;
+}
+.layer3 {
+	position: relative;
+	background: linear-gradient(0deg, #FF0000, #FFFFFF, #00FF00, #FFFFFF, #0000FF);
+	right:50px;
+	width: 400px;
+	height: 2200px;
+	animation: gradient2 4s infinite;
+	
+	animation-direction: alternate;
+	z-index: 2;
+	opacity: 0.33;
+}
 
 @keyframes gradient {
 	from {
-		top: 480px;
+		top: 880px;
 	}
 
 	to {
-		top: -200px;
+		top: -880px;
+	}
+}
+@keyframes gradient1 {
+	from {
+		top: 600px;
+	}
+
+	to {
+		top: -40px;
+	}
+}
+@keyframes gradient2 {
+	from {
+		top: 200px;
+	}
+
+	to {
+		top: -100px;
 	}
 }
