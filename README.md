@@ -26,13 +26,13 @@ For this particular project, there are no specific installation requirements.
 ### Develop
 
 To develop this document, you can follow the steps provided below:
-1. create a fork of this project on Github
-2. ping the author of this repo via Github Issues to see if they are looking for contributions on the specific feature you're looking to add
-3. open the file in VS Code and make updates 
-4. add and commit those changes in your forked github repo
-5. make a pull request specifying what additions and changes were made
-6. have a nice chat and communication with me about those changes. 
-7. celebrate the contribution! 
+1. Create a fork of this project on Github
+2. Ping the author of this repo via Github Issues to see if they are looking for contributions on the specific feature you're looking to add
+3. Open the file in VS Code and make updates 
+4. Add and commit those changes in your forked github repo
+5. Make a pull request specifying what additions and changes were made
+6. Have a nice chat and communication with me about those changes. 
+7. Celebrate the contribution! 
 
 ## Built with
 ***
