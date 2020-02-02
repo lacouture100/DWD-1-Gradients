@@ -53,7 +53,7 @@ To develop this document, you can follow the steps provided below:
 ***
 # Notes & Process
 
-
+My eork primarily focused on experiments with gradients through CSS animations.
 
 ## Process & Documentation
 
