@@ -16,7 +16,6 @@ This proeject consists on making a webpage with only HTML and CSS in order to ge
 
 ### Prerequisites
 
-
  -  An internet browser.
 
 ### Installation
@@ -53,18 +52,27 @@ To develop this document, you can follow the steps provided below:
 ***
 # Notes & Process
 
-My eork primarily focused on experiments with gradients through CSS animations.
+My work primarily focused on experiments with gradients using CSS animations and grid layouts. I started playing around with gradient animations and color mixes around the whole background before deciding on a more "tiled" version. 
+
+I decided to use a grid layout since it seemed simple enough to create the effect I wanted. For the home page I decided to go for a minimal look, with two rectangular containers each with it's own gradient. The top-most container has a vertical movement pattern and is the first experiment. The second rectangle contains a dynamic horizontal gradient which leads towards the second experiment.
+
+In the first experiment's page, made entirely with vertical gradients,I used different time setting to create an animation that would only synce every six seconds. In the second experiment's page I used both horizontal gradients and text.
+
 
 ## Process & Documentation
 
-<!-- Any specific challenges or struggles documented -->
+
+
 ## Challenges & Struggles
+ - I struggled with aligning objects to the center, managing their size and how much they would stretch or not according to the viewport.
+  - I takes me some time to realize how to mix absolute, fixed, relative and other positions in combination with the grid and flex-box layout.
 
-<!-- Any questions you have -->
 ## Questions
+ - When I created a <div> with `width : 100%` , it worked perfectly. However when I introduced the `vertical : 100%` parameter the <div> would no appear. Why does this happen?
+  - Which is a better way to handle the layout, through grids or through flex-box?
+  - When organizaing content in a webpage, what should be left to JS and what should be controlled with CSS?
 
-<!-- References for resources and inspiration -->
+
 ## References
 
-* Author First Name, Author Last Name. [Link]()
-* Author First Name, Author Last Name. [Link]()
+* Felipe Pantone. [Chromadynamica](https://www.felipepantone.com/chromadynamica)
