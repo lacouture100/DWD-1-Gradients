@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+}
+p{
+    font-family: Impact;
+    color:white;
+
+}
+.blackitem{
+    background-color:black;
+    color: seashell;
+    text-align: center;
+}
+
+.item1 {
+    background: linear-gradient(90deg,#1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 1s;
+
+}
+
+.item2 {
+    background: linear-gradient(90deg,  #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 1s;
+    text-align: right;
+    color: seashell;
+}
+
+.item3 {
+    background: linear-gradient(90deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 2s;
+    text-align: left;
+    color: seashell;
+}
+
+.item4 {
+    background: linear-gradient(90deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 300% 300%;
+    animation: gradient ease infinite;
+    animation-duration: 3s;
+}
+
+
+.container {
+    font-size: 40px;
+    height: 1000px;
+    width: 100%;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% -150%;
+    }
+
+    50% {
+        background-position: -150% -100%;
+    }
+
+    100% {
+        background-position: 0% -50%;
+    }
+}
+
+@keyframes inverse-gradient {
+    0% {
+        background-position: 0% 150%;
+    }
+
+    50% {
+        background-position: -150% -100%;
+    }
+
+    100% {
+        background-position: 0% 150%;
+    }
+}

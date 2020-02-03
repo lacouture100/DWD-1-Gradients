@@ -23,7 +23,7 @@ h1{
 }
 
 .item2 {
-    background-image: linear-gradient( 90deg,  #f0ec24, #ee52e1);;
+    background-image: linear-gradient( 90deg,  #f0ec24, #ee52e1);
     background-size: 300% 300%;
     animation: side-gradient ease infinite;
     animation-duration: 2s;
