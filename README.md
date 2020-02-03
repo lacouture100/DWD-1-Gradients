@@ -65,11 +65,11 @@ At first I started with a gradient animation throughout the whole background. Th
 
 ![](GIFs/process_1.gif)
 
-Later on I started playing with movement. First by moving the whole <div>. The movement didn't really accomplish what I wanted.
+Later on I started playing with movement. First by moving the whole container. The movement didn't really accomplish what I wanted.
 
 ![](GIFs/process_2.gif)
 
-After testing more I decided on animating the gradient background in each of the <div> containers layed out with the grid. The grid gave it the perfect layout to generate an appealing visual effect.
+After testing more I decided on animating the gradient background in each of the containers layed out with the grid. The grid gave it the perfect layout to generate an appealing visual effect.
 
 ![](GIFs/process_3.gif)
 
