@@ -31,34 +31,28 @@ h1{
     height:100%;
 }
 
-.item3 {
-    display: block;
-    background: linear-gradient(0deg, #003cff,#23d5ab, #23d5ab);
-    background-size: 300% 300%;
-    animation: gradient ease infinite;
-    animation-duration: 4s;
-}
+
 
 .blackitem{
     background-color:black;
     color: seashell;
     text-align: center;
-    vertical-align: middle;
 }
 
 .container {
     position: relative;
-    top: 100px;
     font-size: 40px;
     min-height: 600px;
     width: 80%;
     background: black;
     display: grid;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1px;
+    margin-bottom: auto;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
       }
 
 
