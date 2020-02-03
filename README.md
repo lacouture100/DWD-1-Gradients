@@ -61,6 +61,11 @@ In the first experiment's page, made entirely with vertical gradients,I used dif
 
 ## Process & Documentation
 
+![](GIFs/process_1.gif)
+![](GIFs/process_2.gif)
+![](GIFs/process_3.gif)
+![](GIFs/process_4.gif)
+
 
 
 ## Challenges & Struggles
