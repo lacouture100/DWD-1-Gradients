@@ -61,9 +61,24 @@ In the first experiment's page, made entirely with vertical gradients,I used dif
 
 ## Process & Documentation
 
+At first I started with a gradient animation throughout the whole background. The gradient was between the vales of RGB: red, green, and blue.
+
 ![](GIFs/process_1.gif)
+
+Later on I started playing with movement. First by moving the whole <div>. The movement didn't really accomplish what I wanted.
+
 ![](GIFs/process_2.gif)
+
+After testing more I decided on animating the gradient background in each of the <div> containers layed out with the grid. The grid gave it the perfect layout to generate an appealing visual effect.
+
 ![](GIFs/process_3.gif)
+
+I later made another page with several horizontal gradient animations and a text element in the middle. The text uses the "Impact" font.
+
+![](GIFs/process_5.gif)
+
+By the end I settled on making the home page with two hyperlinked rectangles, each one with an animation similar to the page each of them linked to. 
+
 ![](GIFs/process_4.gif)
 
 
