@@ -7,7 +7,7 @@ This repository contains my first assignment for the Dynamic Web Development Cla
 ## About
 ***
 
-This proeject consists on making a webpage with only HTML and CSS in order to get a good idea on how to code, track, sync and deploy a website.
+This project consists on making a webpage with only HTML and CSS in order to get a good idea on how to code, track, sync and deploy a website.
 
 ## Setup
 ***
